@@ -1,4 +1,9 @@
 export type LocaleMessages = {
+    InvalidRequestBodyMsg: string
+    InvalidWebhookFilterMsg: string
+    WebhookFilterEvaluationFailedMsg: string
+    InvalidMailIdMsg: string
+    MailNotFoundMsg: string
     CustomAuthPasswordMsg: string
     UserTokenExpiredMsg: string
     UserAcceesTokenExpiredMsg: string

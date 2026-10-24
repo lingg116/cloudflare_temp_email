@@ -1,6 +1,11 @@
 import { LocaleMessages } from "./type";
 
 const messages: LocaleMessages = {
+    InvalidRequestBodyMsg: "无效的请求体",
+    InvalidWebhookFilterMsg: "无效的过滤规则",
+    WebhookFilterEvaluationFailedMsg: "无法判断过滤规则，请检查邮件是否能正常解析",
+    InvalidMailIdMsg: "无效的邮件 ID",
+    MailNotFoundMsg: "邮件不存在",
     CustomAuthPasswordMsg: "你已启用私有站点密码,请提供密码",
     UserTokenExpiredMsg: "您的令牌已过期, 请重新登录",
     UserAcceesTokenExpiredMsg: "您的访问令牌已过期, 请刷新页面",

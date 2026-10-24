@@ -114,9 +114,11 @@ type Bindings = {
 
     // webhook config
     FRONTEND_URL: string | undefined
+    BACKEND_URL: string | undefined
 
     // AI extraction config
     ENABLE_AI_EMAIL_EXTRACT: string | boolean | undefined
+    AI_EXTRACT_MODE: string | undefined
     AI_EXTRACT_MODEL: string | undefined
 
     // gzip compression for raw_mails
